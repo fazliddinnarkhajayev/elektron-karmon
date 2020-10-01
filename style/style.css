@@ -1,0 +1,139 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+body{
+  background-color:orange;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.top-wallet{
+  display: flex;
+}
+.wallet-button{
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+}
+.wallet{
+  overflow: auto;
+  height: 470px;
+  width: 300px;
+  background-color: rgb(243, 239, 239);
+  padding: 30px;
+}
+.wallet-list{
+  padding: 0%;
+}
+.wallet-item{
+  list-style: none;
+  background-color: #fff;
+  text-align: start;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  border: 3px solid grey;
+}
+.wallet-item:hover{
+  border: 3px solid blue;
+}
+.mastercard{
+  border: 3px solid blue;
+}
+.wallet-link{
+  display: block;
+  height: 100px;
+  text-decoration: none;
+  color: grey;
+}
+.wallet-page{
+  margin: 0;
+}
+.cards{
+  margin-bottom: 15px;
+}
+
+
+.current-balance{
+  padding: 20px;
+  width: 600px;
+  background-color: #fff;
+  height:470px ;
+  overflow: auto;
+}
+.balance-top{
+  display: flex;
+  align-items: center;
+
+}
+.balance-title{
+  font-size: 20px;
+}
+.price-top{
+  font-weight: 800;
+  font-size: 30px;
+  margin-left: auto;
+}
+.balance-menu{
+  padding: 0%;
+  list-style: none;
+}
+.balance-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 35px;
+}
+.balance-list::before{
+  display: block;
+  width: 15px;
+  height: 15px;
+  content: "";
+  background-image: url("../img/minus.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 15px;
+  border: 0.5px solid grey ;
+  border-radius:10px ;
+  padding: 5px;
+  margin: 15px;
+}
+.balance-list-icon::before{
+  display: block;
+  width: 15px;
+  height: 15px;
+  content: "";
+  background-image: url("../img/plus.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 15px;
+  border: 0.5px solid grey ;
+  border-radius:10px ;
+  padding: 5px;
+  margin: 15px;
+}
+.b-list-title{
+  margin: 0;
+  font-size: 25px;
+}
+.b-list-page{
+  margin: 0;
+  margin-top: 5px;
+  color: grey;
+}
+.price{
+  margin-left: auto;
+  color: blue;
+}
+.price-green{
+  color: green;
+}
